@@ -1,0 +1,24 @@
+header {
+	position: fixed;
+	top: 0;
+	width: -webkit-fill-available;
+	height: 40px;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #ffffffa7;
+	z-index: 2;
+}
+
+.nav-head {
+	font-family: "Unbounded", sans-serif;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.5;
+	cursor: not-allowed;
+}

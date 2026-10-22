@@ -1,0 +1,21 @@
+.dims {
+	border: 2.4px solid #111729;
+	background: #ff5100;
+	padding: 8px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	transition: 0.05s all ease-in-out;
+}
+
+.dims:hover {
+	cursor: pointer;
+	background: #00ffef;
+}
+
+.dims svg {
+	width: 24px;
+	fill: #111729;
+}

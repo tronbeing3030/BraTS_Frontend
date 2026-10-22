@@ -1,0 +1,173 @@
+section {
+	width: -webkit-fill-available;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	padding: 8px 12px 12px;
+	background-color: #111729eb;
+	font-family: "Google Sans", sans-serif;
+	border-radius: 4px;
+	backdrop-filter: blur(5px);
+	z-index: 2;
+	container-type: inline-size;
+}
+
+h3 {
+	font-family: "Unbounded", sans-serif;
+	color: #00ffef;
+	margin: 0;
+	font-size: 10cqw;
+	font-weight: normal;
+	white-space: nowrap;
+	line-height: 1;
+	letter-spacing: 0;
+}
+
+div {
+	font-family: "Google Sans", sans-serif;
+}
+
+.upload {
+	border: 2px dashed #00ffef;
+	border-radius: 4px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+	cursor: pointer;
+}
+
+.upload svg {
+	width: 20px;
+	fill: #00ffef;
+}
+
+.upload .label {
+	color: #00ffef;
+	font-size: 20px;
+}
+
+.files {
+	width: -webkit-fill-available;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px;
+}
+
+.files .token {
+	display: flex;
+	align-items: center;
+	gap: 2px;
+}
+
+.files .token .token-name {
+	color: #00ffef;
+	font-size: 16px;
+}
+
+.files .token svg {
+	width: 24px;
+	fill: #00ffef;
+}
+
+.orange {
+	width: -webkit-fill-available;
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+}
+
+.orange .type {
+	width: fit-content;
+	height: fit-content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+	outline: 2px solid #ff5100;
+	outline-offset: -2px;
+}
+
+.orange .slicer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+	gap: 2px;
+}
+
+.orange .slicer .num {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	border: 2px solid #ff5100;
+	border-radius: 4px;
+}
+
+.orange .slicer .num .slicenum {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	color: #ff5100;
+}
+
+.orange .slicer .num .arrow svg {
+	width: 16px;
+	height: 16px;
+	fill: #111729;
+}
+
+.orange .slicer .slbl {
+	color: #ff5100;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+button {
+	width: -webkit-fill-available;
+	height: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 4px;
+	font-family: "Google Sans", sans-serif;
+	font-weight: 400;
+	cursor: pointer;
+	transition: 0.2s all ease-in-out;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+.orange .type .types {
+	display: flex;
+	padding: 5px 12px;
+	border-radius: 4px;
+	border: none;
+}
+
+.orange .slicer .num .arrow {
+	background: #ff5100;
+	border: none;
+	fill: #111729;
+	font-size: 16px;
+	border-radius: 0;
+	padding: 2px;
+	height: -webkit-fill-available;
+	cursor: pointer;
+}
+
+button.act-btn {
+	background-color: #00ffef;
+	color: #111729;
+	font-size: 20px;
+}
